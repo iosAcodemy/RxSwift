@@ -10,9 +10,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-// THIRD TASK SOLUTION
-// explain how and why you must dispose two properties at the same time
-
 infix operator <->
 
 func <-> <T>(property: ControlProperty<T>, variable: Variable<T>) {

@@ -25,7 +25,7 @@ class RandomUserAPIManager {
     
     func getUsers(_ count: Int) -> Observable<ListResult<User>> {
         let apiMethod: APIMethod = .users
-        var params  = ["results": count]
+        let params  = ["results": count]
         return requestManager.fetchCollection(apiMethod, params: params as [String : AnyObject]?)
     }
 }
