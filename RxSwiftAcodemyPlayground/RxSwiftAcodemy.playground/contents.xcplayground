@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' display-mode='raw'>
+    <pages>
+        <page name='Minimum teorii'/>
+        <page name='Przykład 1 - create + zadanie'/>
+        <page name='Przykład 2 - map + zadanie'/>
+        <page name='Przykład 3 - flatMap + zadanie'/>
+        <page name='Przykład 4 - filter'/>
+        <page name='Przykład 5 - skip'/>
+        <page name='Przykład 6 - shareReplay'/>
+        <page name='Subjects'/>
+        <page name='Przykład 7 - combineLatest + zadanie'/>
+        <page name='Przykład 8 - sample + zadanie'/>
+        <page name='Przykład 9 - catchError'/>
+        <page name='Przykład 10 - concat'/>
+        <page name='Przykład 11 - merge + zadanie'/>
+    </pages>
+</playground>
