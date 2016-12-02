@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InitialViewController" customModule="RxSwiftAcodemy" customModuleProvider="target">
+            <connections>
+                <outlet property="simpleFormButton" destination="dw8-Fo-cKt" id="Enw-LG-VzD"/>
+                <outlet property="usersListButton" destination="cn1-CU-sYC" id="LUi-eY-n59"/>
+                <outlet property="validatedFormButton" destination="YUS-fu-9ry" id="pda-Te-z25"/>
+                <outlet property="view" destination="fK4-or-xcP" id="Uby-kE-0u8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fK4-or-xcP">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ljO-tW-YTi">
+                    <rect key="frame" x="25" y="235.5" width="325" height="195"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dw8-Fo-cKt">
+                            <rect key="frame" x="0.0" y="0.0" width="325" height="45"/>
+                            <color key="backgroundColor" red="0.1048076823" green="0.99615484480000005" blue="0.75305265190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Yjg-xR-DuU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                            <state key="normal" title="Simple Form">
+                                <color key="titleColor" red="0.1412093639" green="0.15288499" blue="0.18816429379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUS-fu-9ry">
+                            <rect key="frame" x="0.0" y="75" width="325" height="45"/>
+                            <color key="backgroundColor" red="0.1048076823" green="0.99615484480000005" blue="0.75305265190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="VyT-Z8-BTl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                            <state key="normal" title="Form Validation">
+                                <color key="titleColor" red="0.1412093639" green="0.15288499" blue="0.18816429379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cn1-CU-sYC">
+                            <rect key="frame" x="0.0" y="150" width="325" height="45"/>
+                            <color key="backgroundColor" red="0.1048076823" green="0.99615484480000005" blue="0.75305265190000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="7YZ-18-aik"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                            <state key="normal" title="Rx Data Source">
+                                <color key="titleColor" red="0.1412093639" green="0.15288499" blue="0.18816429379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.1412093639" green="0.15288499" blue="0.18816429379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ljO-tW-YTi" firstAttribute="leading" secondItem="fK4-or-xcP" secondAttribute="leading" constant="25" id="L5d-4o-cfY"/>
+                <constraint firstAttribute="trailing" secondItem="ljO-tW-YTi" secondAttribute="trailing" constant="25" id="axe-wJ-Agz"/>
+                <constraint firstItem="ljO-tW-YTi" firstAttribute="centerY" secondItem="fK4-or-xcP" secondAttribute="centerY" id="e63-Ff-6lL"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

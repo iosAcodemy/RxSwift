@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Decodable (0.5)
+  - JGProgressHUD (1.4)
+  - RxCocoa (3.0.0):
+    - RxSwift (~> 3.0)
+  - RxOptional (3.1.3):
+    - RxCocoa
+    - RxSwift
+  - RxSwift (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Decodable
+  - JGProgressHUD
+  - RxCocoa (= 3.0.0)
+  - RxOptional
+  - RxSwift (= 3.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Decodable: 7c90acc68d357b71d0d6efc120faf9c53c644b7e
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  RxCocoa: 0a2f3ae381cf16f4021a4cee7a4420f83058a965
+  RxOptional: b97b59183af80d1e729ac9e51d09a10be668d6a8
+  RxSwift: a930cd662f5b4a7ca9dc3518585dba91dadf497c
+
+PODFILE CHECKSUM: aeb2503e8964856027b0ee6584f7d8ea30f46e81
+
+COCOAPODS: 1.1.1
