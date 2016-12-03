@@ -54,13 +54,18 @@ struct SimpleFormViewModel {
     func setupObservables() {
         
         // TASK 2 
-        //W ViewModelu, w metodzie setupObservables stwórz odpowiednie Observables, które będą odpowiadały za zwrócenie poprawnej wartości dla wybranej płci.
+        // Create an observables to properly assign gender description to formattedGender 
         
         Observable.combineLatest(firstName.asObservable().filterNil(),
                                  lastName.asObservable().filterNil()) { "\($0.0) \($0.1)"}
             .skip(1)
             .bindTo(fullName)
             .addDisposableTo(disposeBag)
-        birthDate.asObservable().map(SimpleFormViewModel.dateFormatter.string).bindTo(formattedBirthDate).addDisposableTo(disposeBag)
+        
+        birthDate
+            .asObservable()
+            .map(SimpleFormViewModel.dateFormatter.string)
+            .bindTo(formattedBirthDate)
+            .addDisposableTo(disposeBag)
     }
 }

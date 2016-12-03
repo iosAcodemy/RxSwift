@@ -87,7 +87,7 @@ final class SimpleFormViewController: UIViewController {
     }
     
     // TASK 1
-    // Modify code bellow - change one way bindings to two way bindings
+    // Add two way bindings
     
     fileprivate func bindTextFields() {
     }
@@ -107,7 +107,7 @@ final class SimpleFormViewController: UIViewController {
     
     // TASK 4
     // Add button to clear form.
-    // Subscribe to tap event - reset the ViewModel and bind it again.
+    // Subscribe to tap event - reset values in ViewModel.
     
     fileprivate func bindUI() {
     }
